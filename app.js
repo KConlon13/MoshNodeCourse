@@ -30,6 +30,14 @@
 // })
 
 // const EventEmitter = require('events');
+// const emitter = new EventEmitter();
+
+// emitter.on('logging', (arg)=>{
+//     console.log('Listener called', arg)
+// });
+
+// emitter.emit('logging', { data: 'message' });
+
 
 // const Logger = require('./logger')
 // const logger = new Logger();
@@ -57,3 +65,4 @@ const server = http.createServer((req, res)=>{
 server.listen(3000)
 
 console.log('Listening on port 3000...')
+
